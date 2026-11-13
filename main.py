@@ -1,6 +1,6 @@
 import os
 
-JOKE = "The agent said 'Tests pass.' CI said 'No tests collected.' We both admired the clean dashboard."
+JOKE = "I asked my coding agent for a blameless postmortem. It rebased the incident onto my commit."
 
 output_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 os.makedirs(output_dir, exist_ok=True)
